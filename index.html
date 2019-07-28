@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='utf-8'>
+        <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+        <title>NodeProp</title>
+        <meta name='description' content='Teste de página responsiva.'>
+        <meta name='viewport' content='width=device-width, initial-scale=1'>
+        <meta name='robots' content='index, follow'>
+        <link rel='stylesheet' type='text/css' media='screen' href='css/style.css'>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700&display=swap" rel="stylesheet"> 
+        <link rel="icon" href="img/icon.png">
+        <script src='main.js'></script>
+    </head>
+    <body>
+        <!-- HEADER -->
+        <header class="cabecalho container">
+            <a href="index.html"><h1 class="logo">NodeProp</h1></a>
+            <!-- MENU -->
+            <button class="btn-menu bg-gradient"><i class="fa fa-bars fa-lg"></i></button>
+            <nav class="menu">
+                <a class="btn-close"><i class="fa fa-times"></i></a>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Clientes</a></li>
+                    <li><a href="#">Serviços</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Quem Somos</a></li>
+                    <li><a href="#">Contato</a></li>
+                </ul>
+            </nav>
+        </header>
+        <!-- BANNER -->
+        <div class="banner container">
+            <div class="title">
+                <h2> OUSE INOVAR! </h2>
+                <h3> Cursos completos de Desenvolvimento Web. 100% vídeo aulas, acesso ilimitado e aprendizado garantido! </h3>
+            </div>
+            <div class="buttons">
+                <button class="btn btn-cadastrar bg-white radius"> Cadastrar <i class="fa fa-arrow-circle-right"></i></button>
+                <button class="btn btn-sobre bg-black radius"> Sobre <i class="fa fa-question-circle"></i></button>
+            </div>
+        </div>
+        <!-- MAIN -->
+        <main class="servicos container">
+            <article class="servico bg-white radius">
+                <a href="#"><img src="img/criacoes.jpg" alt="Campanhas publicitárias."></a>
+                <div class="inner">
+                    <a href="#">Campanhas Publicitárias</a>
+                    <h4>Impressos, VTs e Jingles.</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas rutrum arcu vitae magna sodales facilisis. Mauris lobortis ac tortor a imperdiet. Duis scelerisque ante id nulla ultrices facilisis. Maecenas ornare, odio in maximus placerat, libero massa consectetur magna, at pretium dui enim eu nisi. Aliquam gravida pulvinar nunc in porttitor. Mauris blandit sed nisi sed efficitur. Cras facilisis urna eget dolor molestie pulvinar.</p>
+                </div>
+            </article>
+            <article class="servico bg-white radius">
+                <a href="#"><img src="img/md.jpg" alt="Marketing Digital."></a>
+                <div class="inner">
+                    <a href="#">Marketing Digital</a>
+                    <h4>Administração de Redes Sociais</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas rutrum arcu vitae magna sodales facilisis. Mauris lobortis ac tortor a imperdiet. Duis scelerisque ante id nulla ultrices facilisis. Maecenas ornare, odio in maximus placerat, libero massa consectetur magna, at pretium dui enim eu nisi. Aliquam gravida pulvinar nunc in porttitor. Mauris blandit sed nisi sed efficitur. Cras facilisis urna eget dolor molestie pulvinar.</p>
+                </div>
+            </article>
+            <article class="servico bg-white radius">
+                <a href="#"><img src="img/cs.jpg" alt="Criação de sites."></a>
+                <div class="inner">
+                    <a href="#">Criação de Sites</a>
+                    <h4>Sites Administráveis</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas rutrum arcu vitae magna sodales facilisis. Mauris lobortis ac tortor a imperdiet. Duis scelerisque ante id nulla ultrices facilisis. Maecenas ornare, odio in maximus placerat, libero massa consectetur magna, at pretium dui enim eu nisi. Aliquam gravida pulvinar nunc in porttitor. Mauris blandit sed nisi sed efficitur. Cras facilisis urna eget dolor molestie pulvinar.</p>
+                </div>
+            </article>
+        </main>
+        <!-- NEWSLETTER -->
+        <section class="newsletter container bg-black">
+            <h2>Inscreva-se agora!</h2>
+            <h3>Receba novidades, dicas e muito mais</h3>
+            <form>
+                <input class="bg-black radius" type="email" name="email" placeholder="Digite seu email">
+                <button class="bg-white radius">Cadastrar</button>
+            </form>
+        </section>
+        <!-- RODAPÉ -->
+        <footer class="rodape container bg-gradient">
+            <div class="social-icons">
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-instagram"></i></a>
+                <a href="#"><i class="fa fa-github"></i></a>
+            </div>
+            <p class="copyright">Desenvolvido por <a href="http://www.github.com/marcossilvaxx" target="_blank">Marcos Silva</a></p>
+        </footer>
+        <!-- JQUERY -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script>
+            $(".btn-menu").click(function(){
+                $(".menu").show();
+            });
+            $(".btn-close").click(function(){
+                $(".menu").hide();
+            });
+        </script>
+    </body>
+</html>
